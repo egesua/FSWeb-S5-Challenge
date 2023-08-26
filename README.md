@@ -53,7 +53,12 @@ Aşağıda listelenen minimum uygulanabilir ürün (MVP) spesifikasyonlarını k
 Aşağıdaki soruları yanıtlayarak bu sprint'in kavramlarını anladığınızı gösterin. Her sorudan sonra yanıtlarınızı eklemek için bu belgeyi düzenleyin.
 
 1. DOM nedir?
+    DOM, bir web sayfasının her bir öğesini (örneğin başlık, paragraf, resim, bağlantı vb.) bir nesne olarak temsil eder. Bu nesneler, bir hiyerarşi içinde düzenlenir; yani, bir öğenin içinde bulunduğu diğer öğeleri ve ilişkileri gösterir. Bu sayede JavaScript gibi programlama dilleri, DOM'a erişerek sayfa içeriğini değiştirebilir, ekleyebilir veya kaldırabilir.
 2. Bir event nedir?
+    "event" terimi, web sayfalarının etkileşimli ve dinamik hale getirilmesinde büyük öneme sahiptir. Bir web sayfasında, kullanıcının bir düğmeye tıklaması, fare imlecini bir öğenin üzerine getirmesi, bir tuşa basması gibi olaylar, JavaScript kullanılarak yakalanabilir ve işlenebilir. Bu tür olaylar, DOM eventleri olarak adlandırılır.
 3. Bir event dinleyici(listener) nedir?
+    DOM olaylarını yakalamak ve işlemek için olay dinleyicileri kullanılır. Bir olay dinleyicisi, belirli bir DOM öğesine (örneğin, bir düğme veya bir bağlantı) atandığında, belirtilen olayın meydana gelmesini bekler. Eğer olay gerçekleşirse, dinleyici tarafından belirtilen işlev (fonksiyon) otomatik olarak çağrılır.
 4. Neden bir NodeList'i Array'e dönüştürelim??
+    Bir NodeList'i (NodeList) bir diziye (Array) dönüştürmek, NodeList'in sahip olmadığı bazı özelliklere ve işlevselliğe erişim sağlayabilir ve verilerinizi daha rahat bir şekilde işlemenizi kolaylaştırabilir.
 5. Bileşen nedir?
+    Yazılım geliştirmede veya mühendislikte kullanılan ve daha büyük bir yapıyı oluşturan daha küçük parçalara verilen addır.Örneğin, bir web uygulamasını düşünün. Bu uygulama, kullanıcı kaydı, giriş, profil yönetimi ve içerik gösterimi gibi farklı işlevleri içerebilir. Her bir işlevsellik bölümü, ayrı bir bileşen olarak düşünülebilir. Bu modüler yaklaşım, kodun daha sürdürülebilir, ölçeklenebilir ve yeniden kullanılabilir olmasına yardımcı olabilir.
